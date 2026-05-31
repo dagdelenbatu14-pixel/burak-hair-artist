@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="scroll-smooth dark" lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Burak Hair Artist — Unisex Kuaför | Bodrum</title>
+<meta name="description" content="Burak Hair Artist Unisex — Hamza ve Burak kardeşlerin 7 yıllık deneyimiyle saç kesimi, balyaj, perma, sakal tıraşı, sıcak havlu ve VIP hizmetler. Bodrum'da unisex kuaför & berber."/>
+<meta name="theme-color" content="#0d0d0d"/>
+<meta property="og:type" content="business.business"/>
+<meta property="og:title" content="Burak Hair Artist — Unisex Kuaför"/>
+<meta property="og:description" content="7 yıllık deneyim. Saç kesimi, balyaj, perma, sakal, VIP hizmetler. Hamza & Burak kardeşler."/>
+<meta property="og:image" content="images/photo-2.jpg"/>
+<meta property="og:locale" content="tr_TR"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet"/>
+<script id="tw-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        background: "#0d0d0d",
+        surface: "#141414",
+        "surface-2": "#1c1c1c",
+        "surface-3": "#262626",
+        primary: "#ffc400",
+        "primary-dim": "#e0ac00",
+        gold: "#c9a24b",
+        "on-surface": "#f4f4f4",
+        "on-muted": "#aeaeae",
+        outline: "#2e2e2e"
+      },
+      fontFamily: {
+        script: ["'Great Vibes'", "cursive"],
+        display: ["Oswald", "sans-serif"],
+        body: ["Poppins", "sans-serif"]
+      },
+      maxWidth: { content: "1200px" }
+    }
+  }
+}
+</script>
+<style>
+  body { background:#0d0d0d; }
+  .material-symbols-outlined { font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24; vertical-align:middle; }
+  .gold-text {
+    background: linear-gradient(92deg,#bf953f 0%,#fcf6ba 38%,#d4af37 55%,#fbf5b7 72%,#aa771c 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .hero-overlay { background: linear-gradient(to top, #0d0d0d 4%, rgba(13,13,13,.78) 45%, rgba(13,13,13,.45) 100%); }
+  .sec-title::after {
+    content:""; display:block; width:64px; height:3px; margin:14px auto 0;
+    background:linear-gradient(90deg,#bf953f,#fcf6ba,#aa771c); border-radius:9999px;
+  }
+  .card-up { transition: transform .4s cubic-bezier(.2,.8,.2,1), box-shadow .4s; }
+  .card-up:hover { transform: translateY(-6px); box-shadow:0 18px 40px -12px rgba(0,0,0,.7); }
+  .gal { overflow:hidden; }
+  .gal img { transition: transform .6s cubic-bezier(.2,.8,.2,1), filter .4s; }
+  .gal:hover img { transform: scale(1.06); }
+  @keyframes fadeUp { from{opacity:0; transform:translateY(24px)} to{opacity:1; transform:none} }
+  .reveal { animation: fadeUp 1s cubic-bezier(.16,1,.3,1) both; }
+  .marquee-wrap { overflow:hidden; -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent); mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent); }
+  .marquee { display:flex; gap:48px; width:max-content; animation: scrollx 28s linear infinite; }
+  @keyframes scrollx { to { transform: translateX(calc(-50% - 24px)); } }
+  @media (prefers-reduced-motion: reduce){ .marquee{animation:none} .reveal{animation:none} }
+</style>
+</head>
+<body class="bg-background font-body text-on-surface selection:bg-primary/30">
+
+<!-- Header -->
+<header class="fixed top-0 inset-x-0 z-50 bg-background/85 backdrop-blur-md border-b border-outline">
+  <nav class="max-w-content mx-auto px-5 h-16 md:h-20 flex items-center justify-between">
+    <a href="#" class="flex items-baseline gap-2 group">
+      <span class="font-script text-3xl md:text-4xl gold-text leading-none">Burak</span>
+      <span class="font-display uppercase tracking-[0.25em] text-[11px] md:text-xs text-on-muted group-hover:text-primary transition-colors">Hair Artist</span>
+    </a>
+    <div class="hidden lg:flex items-center gap-8 font-display uppercase text-sm tracking-wider">
+      <a href="#hizmetler" class="hover:text-primary transition-colors">Hizmetler</a>
+      <a href="#hakkinda" class="hover:text-primary transition-colors">Hakkımızda</a>
+      <a href="#galeri" class="hover:text-primary transition-colors">Galeri</a>
+      <a href="#vip" class="hover:text-primary transition-colors">VIP</a>
+      <a href="#iletisim" class="hover:text-primary transition-colors">İletişim</a>
+    </div>
+    <a href="#iletisim" class="bg-primary text-background font-display font-semibold uppercase tracking-wide text-sm px-5 py-2.5 rounded-md hover:bg-primary-dim active:scale-95 transition flex items-center gap-2">
+      <span class="material-symbols-outlined text-[20px]">content_cut</span> Randevu
+    </a>
+  </nav>
+</header>
+
+<main>
+<!-- Hero -->
+<section class="relative min-h-[92vh] flex items-end overflow-hidden">
+  <img src="images/photo-1.jpg" alt="Burak Hair Artist Unisex kuaför salonu dış görünüm" class="absolute inset-0 w-full h-full object-cover"/>
+  <div class="absolute inset-0 hero-overlay"></div>
+  <div class="relative z-10 max-w-content mx-auto w-full px-5 pb-20 md:pb-28">
+    <p class="reveal font-display uppercase tracking-[0.4em] text-primary text-xs md:text-sm mb-4">Unisex • Bodrum</p>
+    <h1 class="reveal font-script text-6xl sm:text-7xl md:text-8xl gold-text leading-[0.9] mb-3" style="animation-delay:.1s">Burak</h1>
+    <h2 class="reveal font-display uppercase text-3xl sm:text-4xl md:text-5xl font-600 tracking-wide text-on-surface mb-5" style="animation-delay:.2s">Hair Artist</h2>
+    <p class="reveal max-w-xl text-on-muted text-base md:text-lg mb-8" style="animation-delay:.3s">Hamza ve Burak kardeşlerin <span class="text-primary font-semibold">7 yıllık</span> ustalığıyla; saç, sakal ve renk sanatı. Kadın & erkek için tek adres.</p>
+    <div class="reveal flex flex-wrap gap-4" style="animation-delay:.4s">
+      <a href="#iletisim" class="bg-primary text-background font-display font-semibold uppercase tracking-wide px-7 py-4 rounded-md hover:bg-primary-dim active:scale-95 transition flex items-center gap-2">
+        <span class="material-symbols-outlined">call</span> Randevu Al
+      </a>
+      <a href="#galeri" class="border border-gold/50 text-on-surface font-display uppercase tracking-wide px-7 py-4 rounded-md hover:bg-surface-2 active:scale-95 transition">Salonu Gör</a>
+    </div>
+  </div>
+</section>
+
+<!-- Service marquee -->
+<section class="bg-primary text-background py-4 border-y border-black/10">
+  <div class="marquee-wrap">
+    <div class="marquee font-display uppercase tracking-[0.2em] text-sm font-semibold">
+      <span class="flex gap-12 pr-12">
+        <span>Saç Kesimi</span><span>•</span><span>Balyaj</span><span>•</span><span>Perma</span><span>•</span><span>Sakal Tıraşı</span><span>•</span><span>Sıcak Havlu</span><span>•</span><span>Yüz Maskesi</span><span>•</span><span>Saç Boyama</span><span>•</span><span>Röfle</span><span>•</span><span>VIP Hizmet</span><span>•</span>
+      </span>
+      <span class="flex gap-12 pr-12" aria-hidden="true">
+        <span>Saç Kesimi</span><span>•</span><span>Balyaj</span><span>•</span><span>Perma</span><span>•</span><span>Sakal Tıraşı</span><span>•</span><span>Sıcak Havlu</span><span>•</span><span>Yüz Maskesi</span><span>•</span><span>Saç Boyama</span><span>•</span><span>Röfle</span><span>•</span><span>VIP Hizmet</span><span>•</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="hizmetler" class="py-20 md:py-28 px-5">
+  <div class="max-w-content mx-auto">
+    <div class="text-center mb-14">
+      <p class="font-display uppercase tracking-[0.3em] text-gold text-xs mb-2">Ne Yapıyoruz</p>
+      <h2 class="sec-title font-display uppercase text-3xl md:text-4xl font-600">Hizmetlerimiz</h2>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
+      <!-- card -->
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">content_cut</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Saç Kesimi</h3>
+        <p class="text-on-muted text-sm mt-1">Kadın & erkek, modern ve klasik kesim.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">styler</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Balyaj & Röfle</h3>
+        <p class="text-on-muted text-sm mt-1">Doğal ışıltı, profesyonel renklendirme.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">waves</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Perma</h3>
+        <p class="text-on-muted text-sm mt-1">Kalıcı bukle ve hacim.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">face</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Sakal Tıraşı</h3>
+        <p class="text-on-muted text-sm mt-1">Şekillendirme + ustura keskinliği.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">dry</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Sıcak Havlu</h3>
+        <p class="text-on-muted text-sm mt-1">Geleneksel rahatlatıcı bakım.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">spa</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Yüz Maskesi</h3>
+        <p class="text-on-muted text-sm mt-1">Cilt yenileyici bakım maskeleri.</p>
+      </div>
+      <div class="card-up bg-surface border border-outline rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-4xl mb-3">palette</span>
+        <h3 class="font-display uppercase tracking-wide text-lg">Saç Boyama</h3>
+        <p class="text-on-muted text-sm mt-1">Tam renk, dip boya, fantezi tonlar.</p>
+      </div>
+      <div class="card-up bg-gradient-to-b from-surface-2 to-surface border border-gold/40 rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-gold text-4xl mb-3">workspace_premium</span>
+        <h3 class="font-display uppercase tracking-wide text-lg gold-text">VIP Hizmet</h3>
+        <p class="text-on-muted text-sm mt-1">Üst kat özel VIP salonunda ayrıcalık.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="hakkinda" class="py-20 md:py-28 px-5 bg-surface border-y border-outline">
+  <div class="max-w-content mx-auto grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+    <div class="gal rounded-2xl overflow-hidden border border-outline shadow-2xl">
+      <img src="images/photo-2.jpg" alt="Burak Hair Artist resepsiyon ve gold logo" class="w-full h-[460px] object-cover"/>
+    </div>
+    <div>
+      <p class="font-display uppercase tracking-[0.3em] text-gold text-xs mb-2">Hakkımızda</p>
+      <h2 class="font-display uppercase text-3xl md:text-4xl font-600 mb-5">Hamza & Burak <span class="gold-text">Kardeşler</span></h2>
+      <p class="text-on-muted text-base md:text-lg mb-4">Bodrum'da <span class="text-primary font-semibold">7 yıldır</span> aynı tutkuyla açığız. Burak Hair Artist olarak saç kesiminden renk sanatına, sakal bakımından VIP hizmetlere kadar kadın ve erkek herkese hizmet veriyoruz.</p>
+      <p class="text-on-muted mb-8">İki kardeşin emeği, modern ekipman ve hijyenik ortam. Bizim için her müşteri bir sanat eseri — koltuğa oturduğunuz andan itibaren fark hissedilir.</p>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-surface-2 border border-outline rounded-xl p-4 text-center">
+          <div class="font-display text-3xl md:text-4xl gold-text">7+</div>
+          <div class="text-on-muted text-xs uppercase tracking-widest mt-1">Yıl Tecrübe</div>
+        </div>
+        <div class="bg-surface-2 border border-outline rounded-xl p-4 text-center">
+          <div class="font-display text-3xl md:text-4xl gold-text">2</div>
+          <div class="text-on-muted text-xs uppercase tracking-widest mt-1">Usta Kardeş</div>
+        </div>
+        <div class="bg-surface-2 border border-outline rounded-xl p-4 text-center">
+          <div class="font-display text-3xl md:text-4xl gold-text">U</div>
+          <div class="text-on-muted text-xs uppercase tracking-widest mt-1">Unisex</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="galeri" class="py-20 md:py-28 px-5">
+  <div class="max-w-content mx-auto">
+    <div class="text-center mb-14">
+      <p class="font-display uppercase tracking-[0.3em] text-gold text-xs mb-2">Ortam</p>
+      <h2 class="sec-title font-display uppercase text-3xl md:text-4xl font-600">Salondan Kareler</h2>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+      <div class="gal rounded-xl border border-outline col-span-2 md:col-span-2 md:row-span-2"><img src="images/photo-6.jpg" alt="Burak Hair Artist iç mekan, berber koltukları" class="w-full h-full object-cover min-h-[260px]"/></div>
+      <div class="gal rounded-xl border border-outline"><img src="images/photo-4.jpg" alt="Salon ayna ve istasyon" class="w-full h-full object-cover min-h-[200px]"/></div>
+      <div class="gal rounded-xl border border-outline"><img src="images/photo-5.jpg" alt="Salon detay" class="w-full h-full object-cover min-h-[200px]"/></div>
+      <div class="gal rounded-xl border border-outline"><img src="images/photo-1.jpg" alt="Dış cephe" class="w-full h-full object-cover min-h-[200px]"/></div>
+      <div class="gal rounded-xl border border-outline"><img src="images/photo-2.jpg" alt="Gold logo duvar" class="w-full h-full object-cover min-h-[200px]"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- VIP -->
+<section id="vip" class="relative py-20 md:py-28 px-5 bg-surface border-y border-outline overflow-hidden">
+  <div class="max-w-content mx-auto grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+    <div class="order-2 md:order-1">
+      <p class="font-display uppercase tracking-[0.3em] text-gold text-xs mb-2">Ayrıcalık</p>
+      <h2 class="font-display uppercase text-3xl md:text-4xl font-600 mb-5">Üst Katta <span class="gold-text">VIP Salon</span></h2>
+      <p class="text-on-muted text-base md:text-lg mb-6">Daha özel bir deneyim için üst kattaki VIP salonumuz. Sakin ortam, birebir ilgi, premium bakım. Önemli günler ve özel bakımlar için ideal.</p>
+      <ul class="space-y-3 text-on-muted">
+        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-gold">check_circle</span> Özel & sakin alan</li>
+        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-gold">check_circle</span> Birebir usta ilgisi</li>
+        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-gold">check_circle</span> Premium ürün & bakım</li>
+      </ul>
+    </div>
+    <div class="order-1 md:order-2 gal rounded-2xl overflow-hidden border border-gold/40 shadow-2xl">
+      <img src="images/photo-3.jpg" alt="VIP salon girişi" class="w-full h-[480px] object-cover"/>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="iletisim" class="py-20 md:py-28 px-5">
+  <div class="max-w-content mx-auto">
+    <div class="text-center mb-14">
+      <p class="font-display uppercase tracking-[0.3em] text-gold text-xs mb-2">Bize Ulaşın</p>
+      <h2 class="sec-title font-display uppercase text-3xl md:text-4xl font-600">İletişim & Randevu</h2>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="space-y-4">
+        <a href="tel:+90" class="flex items-start gap-4 bg-surface border border-outline rounded-xl p-5 hover:bg-surface-2 transition" data-fill="phone">
+          <span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">call</span>
+          <div><h3 class="font-display uppercase tracking-wide">Telefon</h3><p class="text-on-muted">Yakında — numara eklenecek</p></div>
+        </a>
+        <a href="#" target="_blank" rel="noopener" class="flex items-start gap-4 bg-surface border border-outline rounded-xl p-5 hover:bg-surface-2 transition" data-fill="instagram">
+          <span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">photo_camera</span>
+          <div><h3 class="font-display uppercase tracking-wide">Instagram</h3><p class="text-on-muted">Yakında — hesap eklenecek</p></div>
+        </a>
+        <div class="flex items-start gap-4 bg-surface border border-outline rounded-xl p-5" data-fill="address">
+          <span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">location_on</span>
+          <div><h3 class="font-display uppercase tracking-wide">Adres</h3><p class="text-on-muted">Bodrum / Muğla — tam adres eklenecek</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-surface border border-gold/30 rounded-xl p-5">
+          <span class="material-symbols-outlined text-gold p-2 bg-gold/10 rounded-lg">schedule</span>
+          <div><h3 class="font-display uppercase tracking-wide">Çalışma Saatleri</h3><p class="text-on-muted">Her gün hizmetinizdeyiz</p></div>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden border border-outline min-h-[360px] bg-surface flex items-center justify-center" id="map-slot">
+        <div class="text-center text-on-muted p-8">
+          <span class="material-symbols-outlined text-5xl text-gold mb-3">map</span>
+          <p class="font-display uppercase tracking-wide">Google Harita</p>
+          <p class="text-sm mt-1">İşletme hesabı onaylanınca buraya gömülü harita eklenecek.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-surface border-t border-outline py-12 px-5">
+  <div class="max-w-content mx-auto grid md:grid-cols-3 gap-8 items-start">
+    <div>
+      <div class="flex items-baseline gap-2 mb-3">
+        <span class="font-script text-3xl gold-text">Burak</span>
+        <span class="font-display uppercase tracking-[0.25em] text-xs text-on-muted">Hair Artist</span>
+      </div>
+      <p class="text-on-muted text-sm max-w-xs">Unisex kuaför & berber. Hamza ve Burak kardeşler, 7 yıllık deneyim. Bodrum.</p>
+    </div>
+    <div>
+      <h4 class="font-display uppercase tracking-wide text-primary mb-3">Menü</h4>
+      <nav class="flex flex-col gap-2 text-on-muted text-sm">
+        <a href="#hizmetler" class="hover:text-primary">Hizmetler</a>
+        <a href="#hakkinda" class="hover:text-primary">Hakkımızda</a>
+        <a href="#galeri" class="hover:text-primary">Galeri</a>
+        <a href="#vip" class="hover:text-primary">VIP</a>
+        <a href="#iletisim" class="hover:text-primary">İletişim</a>
+      </nav>
+    </div>
+    <div>
+      <h4 class="font-display uppercase tracking-wide text-primary mb-3">İletişim</h4>
+      <p class="text-on-muted text-sm">Bodrum / Muğla</p>
+      <p class="text-on-muted text-sm mt-1">Telefon & Instagram yakında</p>
+    </div>
+  </div>
+  <div class="max-w-content mx-auto mt-10 pt-6 border-t border-outline text-center">
+    <p class="text-on-muted/60 text-xs">© 2025 Burak Hair Artist Unisex. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+</body>
+</html>
